@@ -12,11 +12,11 @@
         WindowStartupLocation="CenterScreen"
         WindowDecorations="Full"
         ExtendClientAreaToDecorationsHint="True"
-        ExtendClientAreaTitleBarHeightHint="36">
+        ExtendClientAreaTitleBarHeightHint="-1">
 
         <Grid RowDefinitions="Auto,*">
                 <!-- 标题栏 -->
-                <Grid Grid.Row="0" Background="#ffffff" Height="36" IsHitTestVisible="False">
+                <Grid Grid.Row="0" Background="#ffffff" Height="36" WindowDecorationProperties.ElementRole="TitleBar">
                         <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="135"/>
